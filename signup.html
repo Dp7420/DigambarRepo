@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registrasation form</title>
+    <style>
+        .main{
+            display: flex;
+            justify-content: center;
+            margin-top: 100px;
+        }
+        form{
+            padding: 15px;
+            border: 2px solid blue;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <form action="register" method="post">
+            Name: <input type="text" name="fullname" placeholder="enter full name"><br>
+            Email: <input type="email" name="email", placeholder="Enter email Address"><br>
+            password: <input type="password" name="password" placeholder="enter password"><br>
+            conform password: <input type="password" name="conpassword" placeholder="enter conform password"><br>
+            mobile : <input type="text" name="mobile" placeholder="Enter Mobile Number"><br>
+            <input type="submit" name="submit" value="submit">
+        </form>
+    </div>
+</body>
+</html>
